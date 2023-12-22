@@ -97,6 +97,7 @@ ul li {
     margin-right: 1em;
 }
 
+
 #nav-container button {
     border: none;
     background-color: #191919;
@@ -111,7 +112,10 @@ ul li {
 
 #section-header{
     height: 70vh;
-    border-bottom: ;
+    display: flex;
+}
+#svg-container {
+    width: 40%;
 }
 
 #section-header p, #section-header button{
