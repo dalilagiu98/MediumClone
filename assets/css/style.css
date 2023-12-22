@@ -340,66 +340,113 @@ footer li {
     display: flex;
     flex-direction: column;
   }
+  h3 {
+      font-size: 0.7em;
+  }
+  
+  #trending {
+      padding: 3em 0.5em;
+  }
+  
+  #trending-container {
+      flex-direction: column;
+  }
+  
+  #trending-container article {
+      width: 100%;
+  }
+  
+  
+  #article {
+      order: 2;
+      padding: 0 2em;
+      margin-top:7em;
+      flex-direction: column;
+      width: 100%;
+  }
+  
+  .article-card {
+      width: 100%;
+      height: auto;
+  }
+  
+  .text-part {
+      width: 60%;
+  }
+  
+  .image-article-container {
+      width: 40%;
+  }
+  
+  .image-article-container img{
+      width: 100%;
+  }
+  .description{
+     font-size: 0.9em;
+  }
+  
+  .date-article {
+      font-size: 0.7em;
+  }
+  aside {
+      order: 1;
+      position: static;
+      padding: 0;
+      padding-left: 2em;
+      width: 100%;
+  }
+  
+  footer ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+  }
 }
 
-h3 {
-    font-size: 0.7em;
-}
 
-#trending {
-    padding: 3em 0.5em;
-}
+/* ----------MEDIAQUERY PER TABLET---------- */
+@media screen and (min-width:576px) and (max-width:768px){
+    /* HEADER */
+    ul li {
+        margin-right: 0.3em;
+        font-size: 0.9em;
+    }
 
-#trending-container {
-    flex-direction: column;
-}
+    #textsection-container {
+        width: 100%;
+        margin:0;
+        padding-left: 2em;
+    } 
 
-#trending-container article {
-    width: 100%;
-}
+    h1 {
+        font-size: 6em;
+    }
 
+    /* MAIN */
+    #trending {
+        padding:2em 0;
+        margin: 0;
+        width: 100%;
+    }
 
-#article {
-    order: 2;
-    padding: 0 2em;
-    margin-top:7em;
-    flex-direction: column;
-    width: 100%;
-}
+    #trending-container article {
+        width: 45%;
+    }
 
-.article-card {
-    width: 100%;
-    height: auto;
-}
-
-.text-part {
-    width: 60%;
-}
-
-.image-article-container {
-    width: 40%;
-}
-
-.image-article-container img{
-    width: 100%;
-}
-.description{
-   font-size: 0.9em;
-}
-
-.date-article {
-    font-size: 0.7em;
-}
-aside {
-    order: 1;
-    position: static;
-    padding: 0;
-    padding-left: 2em;
-    width: 100%;
-}
-
-footer ul {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
+    h3{
+        font-size:  0.7em;
+    }
+    #article {
+        order: 2;
+        padding: 0 2em;
+        flex-direction: column;
+        width: 100%;
+    }
+    aside {
+        order: 1;
+        position: static;
+        padding: 0;
+        padding-left: 2em;
+        width: 100%;
+    }
 }
