@@ -22,9 +22,9 @@ In this weekly exercise, I wanted to experiment with the new concepts I learned 
 
 ## How to Use 🚀
 
-Clone the repository: ![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fgit%2520clone%2520https%3A%2F%2Fgithub.com%2Fyourusername%2Fmedium-clone.git-E3E1D4) <br/>
-Navigate to the project directory: ![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fcd%2520medium-clone-E3E1D4) <br/>
-Open index.html in your favourite browser. <br/>
+1. Clone the repository: <kbd>git clone https://github.com/dalilagiu98/MediumClone.git </kbd>
+2. Navigate to the project directory: <kbd>cd medium-clone </kbd>
+3. Open <kbd>index.html</kbd> in your favourite browser.
 
 Enjoy exploring the Medium Clone! ✨
 
