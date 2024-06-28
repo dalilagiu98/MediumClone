@@ -18,7 +18,6 @@ In this weekly exercise, I wanted to experiment with the new concepts I learned 
 
 ![Static Badge](https://img.shields.io/badge/HTML-darkorange?logo=html5)
 ![Static Badge](https://img.shields.io/badge/CSS-darkblue?logo=css3)
-![Static Badge](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
 ## How to Use 🚀
 
